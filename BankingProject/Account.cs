@@ -20,9 +20,12 @@ namespace Banking {
             Balance = Balance + Amount;
             return true;
         }     
-                public bool Withdraw(decimal Amount) {
+        public bool Withdraw(decimal Amount) {
             if (Amount <= 0) {
                 throw new Exception("Amount must be positive.");
+            }
+            if (Amount > Balance) {
+                throw new Exception("Insufficient funds!");
             }
             Balance = Balance - Amount;
             return true;
