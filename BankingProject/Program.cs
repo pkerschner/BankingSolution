@@ -6,11 +6,11 @@ namespace BankingProject {
     class Program {
         static void Main(string[] args) {
 
-            Savings sav1 = new Savings();
-            sav1.Deposit(100);
-            sav1.CalculateAndPayInterest(1);
-            sav1.CalculateAndPayInterest(1);
-            sav1.Debug();
+            //Savings sav1 = new Savings();
+            //sav1.Deposit(100);
+            //sav1.CalculateAndPayInterest(1);
+            //sav1.CalculateAndPayInterest(1);
+            //sav1.Debug();
 
 
             //Account acct1 = new Account();
